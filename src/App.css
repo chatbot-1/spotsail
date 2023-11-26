@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(46, 46, 46);
+  color: rgb(211, 211, 211);
+}
+.img-text {
+  background-image: url("./assets/about2.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 120px; */
+  /* text-align: center; */
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  /* font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif; */
+  /* font-weight: 800; */
+  -webkit-font-smoothing: antialiased;
+}
