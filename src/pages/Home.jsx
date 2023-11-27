@@ -4,6 +4,10 @@ import college from "../assets/college.jpg";
 import hospital from "../assets/hospital.jpg";
 import About from "../components/About";
 import Goto from "../components/Goto";
+import TopRestaurants from "../components/TopRestaurants";
+import TopColleges from "../components/TopColleges";
+import TopHospitals from "../components/TopHospitals";
+import Spotsail from "../components/Spotsail";
 
 const Home = () => {
   return (
@@ -14,18 +18,18 @@ const Home = () => {
             <div>
               <div className="lg:w-[570px]">
                 <p className="italic">#findyourspotwithSpotSail</p>
-                <h1 className="text-[35px] mb-[10px] leading-[40px] text-gray-100 font-[700] md:text-[50px] md:leading-[55px]">
+                <h1 className=" text-[35px] mb-[10px] leading-[40px] text-gray-100 font-[700] md:text-[50px] md:leading-[55px]">
                   <span className="text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Find</span> open seats effortlessly
                 </h1>
-                <p className="text--para">
+                <p className="text--para mt-[20px]">
                   Discover available spaces effortlessly with SpotSail,
                   offering real-time updates on vacant seats in restaurants,
                   colleges, and hospitals, ensuring you always find the perfect
                   spot.
                 </p>
                 <div className="flex gap-4 mt-[30px]">
-                  <button className="border py-2 rounded w-[200px]">GitHub</button>
-                  <button className="border rounded w-[200px]">List your industry</button>
+                  <button className="border py-2 rounded w-[170px]">GitHub</button>
+                  <button className="border rounded w-[170px]">List your industry</button>
                 </div>
               </div>
 
@@ -61,9 +65,25 @@ const Home = () => {
         </div>
       </section>
 
+      <section>
+        <Spotsail/>
+      </section>
+
       <section className="container">
         <Goto/>
       </section>
+
+      <div className="container">
+        <TopRestaurants/>
+      </div>
+
+      <div className="container">
+        <TopColleges/>
+      </div>
+
+      <div className="container">
+        <TopHospitals/>
+      </div>
 
       <section className="container">
         <About/>

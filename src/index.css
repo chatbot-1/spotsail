@@ -12,6 +12,18 @@
     .container{
       @apply max-w-full w-[1200px] px-5 mx-auto
     }
+    .box1{
+      @apply bg-[url('./assets/hosp.jpg')] hover:bg-[url('./assets/hosp.jpg')] hover:bg-no-repeat hover:bg-center hover:bg-cover
+    }
+    .box2{
+      @apply bg-[url('./assets/hostel.png')] hover:bg-[url('./assets/hostel.png')] hover:bg-no-repeat hover:bg-center hover:bg-cover
+    }
+    .box3{
+      @apply bg-[url('./assets/rest.jpg')] hover:bg-[url('./assets/rest.jpg')] hover:bg-no-repeat hover:bg-center hover:bg-cover
+    }
+    .box4{
+      @apply bg-[url('./assets/col1.jpg')] hover:bg-[url('./assets/col1.jpg')] hover:bg-no-repeat hover:bg-center hover:bg-cover
+    }
   }
   
   @media only screen and (max-width:1024px){

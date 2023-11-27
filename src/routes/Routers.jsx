@@ -9,6 +9,7 @@ import CollegesList from '../pages/CollegesList'
 import HospitalsList from '../pages/HospitalsList'
 import RestaurantsList from '../pages/RestaurantsList'
 import Home from '../pages/Home'
+import HotelsList from '../pages/HotelsList'
 
 const Routers = () => {
   return (
@@ -21,7 +22,8 @@ const Routers = () => {
         <Route path='/restaurant/:id' element={<Restaurant/>}/>
         <Route path='colleges-list' element={<CollegesList/>}/>
         <Route path='hospitals-list' element={<HospitalsList/>}/>
-        <Route path='retaurants-list' element={<RestaurantsList/>}/>
+        <Route path='restaurants-list' element={<RestaurantsList/>}/>
+        <Route path='hotels-list' element={<HotelsList/>}/>
     </Routes>
   )
 }
