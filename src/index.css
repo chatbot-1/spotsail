@@ -24,7 +24,14 @@
     .box4{
       @apply bg-[url('./assets/col1.jpg')] hover:bg-[url('./assets/col1.jpg')] hover:bg-no-repeat hover:bg-center hover:bg-cover
     }
+    .college-cover{
+      @apply bg-[url('./assets/col4.jpg')] bg-no-repeat bg-center bg-cover w-full h-[250px] rounded-[20px]
+    }
   }
+
+  /* .college-cover{
+    background: rgba(0, 0, 0, 0.5);
+  } */
   
   @media only screen and (max-width:1024px){
     .container{

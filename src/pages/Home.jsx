@@ -12,7 +12,7 @@ import Spotsail from "../components/Spotsail";
 const Home = () => {
   return (
     <>
-      <section className="home container">
+      <section className="home container mt-[60px]">
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-[90px] justify-between">
             <div>

@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import rest from "../assets/col3.jpg";
 import { FaStar } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TopColleges = () => {
   return (
@@ -50,162 +51,33 @@ const TopColleges = () => {
           }}
         >
           <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
+            <Link to="/college/1">
+              <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
+                <div>
+                  <img src={rest} alt="" className="rounded-t-[10px]" />
+                </div>
+                <div className="p-3">
+                  <div className="border-b-[1px] border-dashed border-gray-600">
+                    <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
+                      JSS Academy Of Technical Education
+                      <FaHeart className="text-[15px] text-red-500" />
+                    </h4>
+                    <div className="flex items-center justify-between mb-[10px]">
+                      <p className="text-[10px]">Noida • Uttar Pradesh</p>
+                      <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
+                        UGC
+                        {/* <FaStar className="text-[9px]" /> */}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between text-[11px] mt-[8px]">
+                    <p>Vacant Seats :</p>
+                    <p className="bg-indigo-700 p-[5px] rounded">153</p>
                   </div>
                 </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="rounded-t-[10px] shadow-[inset_0px_0px_20px_10px_#00000024] cursor-pointer">
-              <div>
-                <img src={rest} alt="" className="rounded-t-[10px]" />
-              </div>
-              <div className="p-3">
-                <div className="border-b-[1px] border-dashed border-gray-600">
-                  <h4 className="text-[16px] flex items-center justify-between leading-[20px] mb-[15px] font-semibold">
-                    JSS Academy Of Technical Education
-                    <FaHeart className="text-[15px] text-red-500" />
-                  </h4>
-                  <div className="flex items-center justify-between mb-[10px]">
-                    <p className="text-[10px]">Noida • Uttar Pradesh</p>
-                    <p className="flex items-center text-[9px] gap-1 bg-green-700 px-[5px] py-[2px] rounded">
-                      UGC
-                      {/* <FaStar className="text-[9px]" /> */}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between text-[11px] mt-[8px]">
-                  <p>Vacant Seats :</p>
-                  <p className="bg-indigo-700 p-[5px] rounded">153</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          
         </Swiper>
       </div>
     </div>
