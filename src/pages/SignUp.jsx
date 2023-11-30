@@ -10,26 +10,35 @@ const SignUp = () => {
             <div>
               <h1 className="text-[22px] xl:text-[30px] lg:text-[28px] md:text-[26px] sm:text-[24px] font-bold mb-[30px]">Sign up for an account</h1>
             </div>
-            <div className='flex-col xl:flex lg:flex md:flex sm:flex-col justify-between gap-6'>
+
+            <div className='flex-col xl:flex-row lg:flex-row md:flex sm:flex-col xl:gap-6 lg:gap-6 justify-between'>
+
               <div className="flex flex-col mb-[15px]">
                 <label htmlFor="" className="text-[15px] mb-[5px]">First Name</label>
                 <input name="name" type="text" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded"/>
               </div>
+
               <div className="flex flex-col mb-[15px]">
                 <label htmlFor="" className="text-[15px] mb-[5px]">Last Name</label>
                 <input name="name" type="text" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded"/>
               </div>
+
             </div>
+
             <div className="flex flex-col mb-[15px]">
               <label htmlFor="" className="text-[15px] mb-[5px]">Email</label>
               <input name="email" type="email" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded"/>
             </div>
-            <div className='flex-col xl:flex lg:flex md:flex sm:flex-col justify-between gap-6'>
-              <div className="flex flex-col">
+            <div className="flex flex-col mb-[15px]">
+              <label htmlFor="" className="text-[15px] mb-[5px]">Contact No.</label>
+              <input name="number" type="number" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded"/>
+            </div>
+            <div className='flex-col xl:flex-row lg:flex-row md:flex sm:flex-col justify-between gap-6'>
+              <div className="flex flex-col mb-[15px]">
                 <label htmlFor="" className="text-[15px] mb-[5px]">Password</label>
                 <input name="password" type="password" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded"/>
               </div>
-              <div className='flex items-center justify-between gap-3 mt-[28px]'>
+              <div className='flex items-center justify-between gap-3'>
                 <p>Sign up as a</p>
                 <select name="" id="" className="bg-transparent outline-none border-solid border-[1px] border-gray-400 px-[10px] py-[5px] rounded">
                   <option value=""className='bg-transparent text-black'>User</option>

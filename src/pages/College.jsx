@@ -9,6 +9,7 @@ import Bsc from "./college/Bsc";
 import Mca from "./college/Mca";
 import Pharmacy from "./college/Pharmacy";
 import Mba from "./college/Mba";
+import { Link } from "react-router-dom";
 
 const College = () => {
   const [tab, setTab] = useState("btech");
@@ -17,6 +18,7 @@ const College = () => {
     <div className="container mt-[100px]">
       <div>
         <div>
+
           <div className="college-cover">
             <div className="p-3 sm:p-4 md:p-5 lg:p-6 xl:p-8">
               <div>
@@ -57,15 +59,18 @@ const College = () => {
                 </p>
               </div>
               <div className="mt-[15px] sm:mt-[20px] md:mt-[25px] lg:mt-[30px] xl:mt-[35px] flex justify-between">
-                <button className="py-[8px] w-[150px] sm:w-[160px] md:w-[170px] px-[10px] bg-gray-700/80 shadow-2xl text-[11.5px] sm:text-[12px] md:text-[12px] lg:text-[12.5px] xl:text-[13px] rounded font-semibold">
+                <Link to='/contact/1'><button className="py-[8px] w-[150px] sm:w-[160px] md:w-[170px] px-[10px] bg-gray-700/80 shadow-2xl text-[11.5px] sm:text-[12px] md:text-[12px] lg:text-[12.5px] xl:text-[13px] rounded font-semibold">
                   Get The Contact Details
                 </button>
-                <button className="py-[8px] w-[150px] sm:w-[160px] md:w-[170px] lg:w-[180px] xl:w-[200px] px-[10px] bg-gray-700/80 shadow-2xl text-[11.5px] sm:text-[12px] md:text-[12px] lg:text-[12.5px] xl:text-[13px] rounded font-semibold">
+                </Link>
+                <Link to='/confirm/1'><button className="py-[8px] w-[150px] sm:w-[160px] md:w-[170px] lg:w-[180px] xl:w-[200px] px-[10px] bg-gray-700/80 shadow-2xl text-[11.5px] sm:text-[12px] md:text-[12px] lg:text-[12.5px] xl:text-[13px] rounded font-semibold">
                   Book Your Spot
                 </button>
+                </Link>
               </div>
             </div>
           </div>
+          
           <div className="mt-[30px]">
             <h1 className="mb-[20px] text-[20px] font-semibold">
               Available Stream's:

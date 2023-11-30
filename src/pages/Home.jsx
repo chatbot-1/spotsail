@@ -8,6 +8,7 @@ import TopRestaurants from "../components/TopRestaurants";
 import TopColleges from "../components/TopColleges";
 import TopHospitals from "../components/TopHospitals";
 import Spotsail from "../components/Spotsail";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
                 </p>
                 <div className="flex gap-4 mt-[30px]">
                   <button className="border py-2 rounded w-[170px]">GitHub</button>
-                  <button className="border rounded w-[170px]">List your industry</button>
+                  <Link to='/list-your-industry'><button className="border py-2 rounded w-[170px]">List your industry</button></Link>
                 </div>
               </div>
 
