@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Bsc = () => {
+
+    // const [available, isAvailable] = useState(false)
+
+    // const availableSeat = () => {
+    //     isAvailable(true)
+    // }
+
+
   return (
     <div>
         <div>

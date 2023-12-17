@@ -8,9 +8,9 @@ body {
   color: rgb(211, 211, 211);
 }
 
-/* .swiper-wrapper {
+.swiper-wrapper {
     transition-timing-function: linear !important;
-} */
+}
 .spot {
   background: rgb(32, 32, 32);
 }

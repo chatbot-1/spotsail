@@ -118,6 +118,7 @@ const College = () => {
               {tab === "mba" && <Mba />}
             </div>
           </div>
+          
         </div>
       </div>
     </div>

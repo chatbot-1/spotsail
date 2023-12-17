@@ -80,6 +80,7 @@ const TopColleges = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      
     </div>
   );
 };

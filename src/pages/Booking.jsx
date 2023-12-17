@@ -68,20 +68,42 @@ const Booking = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-11">
               <div>
                 <div className="flex flex-col mb-[10px]">
-                  <label htmlFor="" className="text-[14px] mb-[2px]">Name</label>
-                  <input type="text" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                  <label htmlFor="" className="text-[14px] mb-[2px]">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                  />
                 </div>
                 <div className="flex flex-col mb-[10px]">
-                  <label htmlFor="" className="text-[14px] mb-[2px]">Email</label>
-                  <input type="email" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                  <label htmlFor="" className="text-[14px] mb-[2px]">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                  />
                 </div>
                 <div className="flex flex-col mb-[10px]">
-                  <label htmlFor="" className="text-[14px] mb-[2px]">Contact No.</label>
-                  <input type="number" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                  <label htmlFor="" className="text-[14px] mb-[2px]">
+                    Contact No.
+                  </label>
+                  <input
+                    type="number"
+                    className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                  />
                 </div>
                 <div className="flex flex-col mb-[10px]">
-                  <label htmlFor="" className="text-[14px] mb-[2px]">Address</label>
-                  <textarea name="" id="" rows="4" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"></textarea>
+                  <label htmlFor="" className="text-[14px] mb-[2px]">
+                    Address
+                  </label>
+                  <textarea
+                    name=""
+                    id=""
+                    rows="4"
+                    className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                  ></textarea>
                 </div>
               </div>
               <div>
@@ -91,9 +113,11 @@ const Booking = () => {
                     ammount and later it will be managed in your bill once you
                     confirm the seat with the organization.
                   </p>
-                  <button className="mt-[10px] text-[13px] border-solid border-b-[1px] w-[120px]">
-                    Terms & Condition
-                  </button>
+                  <Link to='/terms-and-conditions'>
+                    <button className="mt-[10px] text-[13px] border-solid border-b-[1px] w-[120px]">
+                      Terms & Condition
+                    </button>
+                  </Link>
                 </div>
                 <div>
                   <div>
@@ -102,25 +126,47 @@ const Booking = () => {
                   <div className="p-5 bg-gray-700/50">
                     <div>
                       <div className="flex flex-col mb-[10px]">
-                        <label htmlFor="" className="text-[14px] mb-[2px]">Card Holder Name</label>
-                        <input type="text" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                        <label htmlFor="" className="text-[14px] mb-[2px]">
+                          Card Holder Name
+                        </label>
+                        <input
+                          type="text"
+                          className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                        />
                       </div>
                       <div className="flex flex-col mb-[10px]">
-                        <label htmlFor="" className="text-[14px] mb-[2px]">Credit/Debit Card No.</label>
-                        <input type="number" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                        <label htmlFor="" className="text-[14px] mb-[2px]">
+                          Credit/Debit Card No.
+                        </label>
+                        <input
+                          type="number"
+                          className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                        />
                       </div>
                       <div className="grid grid-cols-2 gap-6 justify-between">
                         <div className="flex flex-col mb-[10px]">
-                          <label htmlFor="" className="text-[14px] mb-[2px]">Expiry Date</label>
-                          <input type="date" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                          <label htmlFor="" className="text-[14px] mb-[2px]">
+                            Expiry Date
+                          </label>
+                          <input
+                            type="date"
+                            className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                          />
                         </div>
                         <div className="flex flex-col mb-[10px]">
-                          <label htmlFor="" className="text-[14px] mb-[2px]">CVV No.</label>
-                          <input type="text" className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"/>
+                          <label htmlFor="" className="text-[14px] mb-[2px]">
+                            CVV No.
+                          </label>
+                          <input
+                            type="text"
+                            className="border bg-transparent outline-none px-2 text-[14px] rounded py-[1px]"
+                          />
                         </div>
                       </div>
                       <div>
-                        <button className="w-full py-[5px] bg-black mt-[20px]">Pay Now</button>
+                        <button className="w-full py-[5px] bg-black mt-[20px]">
+                          Pay Now
+                        </button>
                       </div>
                     </div>
                   </div>

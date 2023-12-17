@@ -13,6 +13,9 @@ import HotelsList from '../pages/HotelsList'
 import Booking from '../pages/Booking'
 import Contact from '../pages/Contact'
 import List from '../pages/List'
+import Terms from '../pages/Terms'
+import AdminProfile from '../pages/profiles/AdminProfile'
+import UserProfile from '../pages/profiles/UserProfile'
 
 const Routers = () => {
   return (
@@ -30,6 +33,9 @@ const Routers = () => {
         <Route path='/confirm/:id' element={<Booking/>}/>
         <Route path='/contact/:id' element={<Contact/>}/>
         <Route path='/list-your-industry' element={<List/>}/>
+        <Route path='/terms-and-conditions' element={<Terms/>}/>
+        <Route path='/user-profile' element={<UserProfile/>}/>
+        <Route path='/admin-profile' element={<AdminProfile/>}/>
     </Routes>
   )
 }
