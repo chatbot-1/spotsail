@@ -10,7 +10,7 @@
   
   @layer components{
     .container{
-      @apply max-w-full w-[1200px] px-5 mx-auto
+      @apply max-w-full w-[1350px] px-5 mx-auto
     }
     .box1{
       @apply bg-[url('./assets/hosp.jpg')] hover:bg-[url('./assets/hosp.jpg')] hover:bg-no-repeat hover:bg-center hover:bg-cover
@@ -31,7 +31,7 @@
       @apply bg-[url('./assets/rest.jpg')] bg-no-repeat bg-center bg-cover w-full h-[250px] rounded-[20px]
     }
     .hospital-cover{
-      @apply bg-[url('./assets/hosp.jpg')] bg-no-repeat bg-center bg-cover w-full h-[250px] rounded-[20px]
+      @apply bg-[url('./assets/col4.jpg')] bg-no-repeat bg-center bg-cover w-full h-[250px] rounded-[20px]
     }
   }
 
